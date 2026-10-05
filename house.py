@@ -4,5 +4,5 @@ if name == "Harry":
     print("Gryffindor")
 elif name == "Hernione":
     print("Gryffindor")
-elif name == "":
-    
+elif name == "hernery":
+    print("Gryffindor")
