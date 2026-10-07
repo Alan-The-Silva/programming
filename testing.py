@@ -1,8 +1,10 @@
-def main():
-    x = int(input("what's x? "))
-    print("x squared is", square(x))
+name = input("What is your name? ")
+print("Hello, " + name)
+num = int(input("Enter the number: "))
 
-def square(n):
-    return n * n
-
-main()
+if num > 0:
+    print("The number is positive.")
+elif num < 0:
+    print("The number is negative.")
+else:
+    print("The number is zero.")
